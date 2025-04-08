@@ -68,4 +68,4 @@ jobs:
         with:
           app-name: 'ryad-TTS-API'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5105ED840BFE4FF1BE03A2AFE41062E0 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
