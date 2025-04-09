@@ -12,7 +12,7 @@ if st.button("🎧 Générer la voix"):
     if texte.strip() == "":
         st.warning("Veuillez entrer un texte.")
     else:
-        url = "ryad-tts-api.azurewebsites.net"
+        url = "https://ryad-tts-api.azurewebsites.net/"
         data = {
             "text": texte,
             "lang": langue
